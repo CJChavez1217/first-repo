@@ -1,0 +1,64 @@
+print("==================================================")
+print("Welcome to RMMC Human Computer Interaction Webpage")
+print("==================================================")
+
+author = "Christian Chavez"
+webname = "HCI"
+print(f"Author: {author}")
+print(f"Website: {webname}")
+
+while True:
+    print("\nMain Menu")
+    print("1. Home")
+    print("2. About Us")
+    print("3. Contact Information")
+    print("4. Exit\n")
+
+    choice = input("Enter your choice (1-4): ")
+
+    if choice == "1":
+        print("Welcome to Home Page")
+        print("Here you can find the latest updates.")
+
+    elif choice == "2":
+        print("Welcome to About Us Page")
+        print("Choose a section to learn more:")
+        print("A. Our Mission")
+        print("B. Our Team")
+        print("C. Go back to Main Menu")
+
+        sub_choice = input("Enter your choice (A-C): ").upper()
+
+        if sub_choice == "A":
+            print("\n Our Mission: To create accessible technology for all.")
+        elif sub_choice == "B":
+            print("\n Our Team: A group of HCI and AI enthusiasts students.")
+        elif sub_choice == "C":
+            print("\nReturning to Main Menu...")
+        else:
+            print("\nInvalid choice. Returning to Main Menu...")
+
+    elif choice == "3":
+        print("\n Contact Information")
+        print("1. Email: RMMC@gmail.com")
+        print("2. Phone: +123 456 7890")
+
+    elif choice == "4":
+        print("\nExiting the system. Goodbye!")
+        break
+
+    else:
+        print("\nInvalid choice. Please enter a number from 1 to 4.")
+        print("Returning to Main Menu...")
+
+
+
+
+
+
+
+
+
+
+
+
